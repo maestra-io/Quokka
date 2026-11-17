@@ -49,7 +49,7 @@ jobs:
         sys.exit(0 if ok else 1)
       
     - name: Setup .NET 9.0
-      uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4.3.1
+      uses: maestra-io/github-actions/dotnet-nora@8b2f81257acdc1ed62f91c51139b527f2966aa7f # v1.99.1
       with:
         dotnet-version: 9
         
